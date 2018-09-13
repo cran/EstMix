@@ -28,7 +28,7 @@ List calcll_cpp(arma::vec& IT_new,arma::vec& B_new,arma::mat lp,arma::mat rlp,do
   arma::uword row; arma::uword col;
 
   for(int i = 0; i < 100; i++){
-    int top = floor((101-i)/2);
+    int top = (101-i)/2;
     double np = i*0.01; // normal cell percentage
     for(int j = 0; j <= top; j++){
       CN.fill(np*2.0);PSCN.fill(np);

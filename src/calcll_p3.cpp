@@ -18,10 +18,10 @@ arma::cube calcll_p3(arma::vec& IT_new,arma::vec& B_new,double var_baf,double va
   int r1_min; int r2_min; int r3_min; int r1_max; int r2_max; int r3_max; int r1_len; int r2_len; int r3_len;
   for(int i = 0; i < 100; i++){
     double np = i*0.01; // normal cell percentage
-    int top1 = floor((100-i)/3); // tumor 1 percentage cannot exceed top1
+    int top1 = (100-i)/3; // tumor 1 percentage cannot exceed top1
     for(int j = 0; j <= top1; j++){
       double tp1 = j*0.01; // tumor 1 percentage
-      int top2 = floor((100-i-j)/2); // tumor 2 percentage cannot exceed top2
+      int top2 = (100-i-j)/2; // tumor 2 percentage cannot exceed top2
       for(int k = 0; k < j; k++) L(i,j,k) = 999999.0; // it is not possible that tp2<tp1
       for(int k = top2+1; k <=50; k++) L(i,j,k) = 999999.0; // it is not possible that tp2>tp3
       for(int k = j; k <= top2; k++){

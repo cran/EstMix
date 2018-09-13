@@ -1,4 +1,4 @@
-02f60d4324137994656883afb8a60f1f *DESCRIPTION
+7644223e9688559a4d00ff3e8fcd887f *DESCRIPTION
 600d8c5ebdfdc3c7f8cc69bedf531bc6 *NAMESPACE
 0f4d60de5995c0c9004296689bbf87d8 *R/RcppExports.R
 5bcde56e50fce28ff50120d7c17e70e0 *R/calc_1d.R
@@ -54,7 +54,7 @@ efffa9be0524e0151787987843d77bfa *man/preprocessing.Rd
 8ecef6086a725feacf332942cee1ff3c *man/wgs_eg.Rd
 ed1457c96bf4fd51bb23ebd4caac6dd1 *src/RcppExports.cpp
 bae4d176ff92f3d0e28458658566d36b *src/calcll_1d_baf.cpp
-f51efc9682c555eafc3b22f6c3265804 *src/calcll_baf.cpp
-a02c10a115ce9142a815fdc1f9b1181e *src/calcll_cpp.cpp
+8d5da7b00e472421bff7ed2e5dc981db *src/calcll_baf.cpp
+a6ffb2ecc21589aa37341d9f1b0de963 *src/calcll_cpp.cpp
 f7468883be290193fa69479bcc022f12 *src/calcll_p1_cpp.cpp
-4f13b456403ca9582da21c9cc5a19ad8 *src/calcll_p3.cpp
+de8abc76c5e8699957d3c189cd1e1bc6 *src/calcll_p3.cpp

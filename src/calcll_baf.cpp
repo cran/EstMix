@@ -29,7 +29,7 @@ List calcll_baf(double lrr,double nrc,double baf,double n_baf,arma::mat lprior_f
   // end
 
   for(int i = 0; i < 100; i++){
-    int top = floor((101-i)/2);
+    int top = (101-i)/2;
     double np = i*0.01; // normal cell percentage
     for(int j = 0; j <= top; j++){
       CN.fill(np*2.0);PSCN.fill(np);
